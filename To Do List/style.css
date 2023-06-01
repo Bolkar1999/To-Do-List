@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        #D61C4E,
+        #293462
+    );
+}
+
+.baslık{
+    position: absolute;
+    width: auto;
+    padding: 10px 40px;
+    top: 20%;
+    left: 40%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 2px solid white;
+    
+
+}
+
+.box{
+    position: absolute;
+    width: 40%;
+    transform: translate(-50%,-50%);
+    min-width: 450px;
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+.yenialıskanlık{
+    position: relative;
+    
+    background: aliceblue;
+    padding: 30px 25px;
+    border-radius: 4px;
+}
+
+.yenialıskanlık input{
+    width: 70%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+    color: #355764;
+    position: relative;
+    border-radius: 4px;
+}
+
+.yenialıskanlık input:focus{
+    outline: none;
+    border-color: #2a434d;
+}
+
+.yenialıskanlık button{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 400px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    float: right;
+    background-color: #898AA6;
+    color: white;
+}
+
+/* .yenialıskanlık button:focus{
+    outline: none;
+    border-color: #2a434d ;
+} */
+
+#tag{
+    background-color: aliceblue;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.liste{
+    background-color: aliceblue;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid #898AA6;
+    
+}
+
+.liste span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.liste button{
+    background-color: #898AA6;
+    color: white;
+    height: 100%;
+    width: 45px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.comple{
+    text-decoration:line-through;
+}
+
